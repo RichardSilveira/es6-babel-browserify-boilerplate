@@ -1,18 +1,25 @@
 <!doctype html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>ES6 Babel Browserify Boilerplate</title>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="mobile-web-app-capable" content="yes">
-  </head>
-  <body>
-    <script src="./dist/app.js"> </script>
-    <script>
-      app();
-    </script>
-  </body>
+  <title>ES6 Babel Browserify Boilerplate</title>
+
+  <meta name="mobile-web-app-capable" content="yes">
+</head>
+
+<body>
+  <script src="./dist/app.js"></script>
+  <script src="./index.js"></script>
+
+  <script type="text/javascript">
+    initClientOAuth2();
+  </script>
+
+  <button onclick="callLoginUri()">Log in</button>
+</body>
+
 </html>

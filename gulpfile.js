@@ -9,8 +9,16 @@ var _ = require('lodash');
 var browserSync = require('browser-sync');
 var reload = browserSync.reload;
 
+// Original source code 
+// var config = {
+//   entryFile: './src/app.js',
+//   outputDir: './dist/',
+//   outputFile: 'app.js'
+// };
+
+//Customized
 var config = {
-  entryFile: './src/app.js',
+  entryFile: './src/lib/client-oauth2.js',
   outputDir: './dist/',
   outputFile: 'app.js'
 };
